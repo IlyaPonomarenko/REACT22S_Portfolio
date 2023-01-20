@@ -2,3 +2,9 @@
     margin-top: 1.5em;
     margin-left: 4.5em;
 }
+.show-modal{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
