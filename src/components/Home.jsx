@@ -1,21 +1,19 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from "react";
+import NavBar from "./NavBar";
+import "../styles/Home.css"
+import CardsCollection from "./CardsCollection"
+import Badge from 'react-bootstrap/Badge';
 
 const Home = () => {
-    return (
-       <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    );
+  return (
+    <div>
+      <NavBar/>
+      <h2>
+        Cards collection <Badge bg="secondary">New</Badge>
+      </h2>
+      <CardsCollection></CardsCollection>
+    </div>
+  );
 };
 
 export default Home;

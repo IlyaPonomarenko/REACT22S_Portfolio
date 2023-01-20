@@ -1,0 +1,7 @@
+.cards-collection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin: 50px auto;
+  }
