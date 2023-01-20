@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import "../styles/Home.css";
 import CardsCollection from "./CardsCollection";
 import Badge from "react-bootstrap/Badge";
+import FormBoot from "./FormBoot";
 
 const Home = () => {
   return (
@@ -13,9 +14,9 @@ const Home = () => {
       </h2>
       <CardsCollection></CardsCollection>
       <h2 className="title">
-        Cards collection <Badge bg="secondary">New</Badge>
+        Form <Badge bg="secondary">New</Badge>
       </h2>
-      <CardsCollection></CardsCollection>
+      <FormBoot/>
     </div>
   );
 };

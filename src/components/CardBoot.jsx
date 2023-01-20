@@ -16,7 +16,7 @@ const CardBoot = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">A button</Button>
+        <Button variant="success">A button</Button>
       </Card.Body>
     </Card>
   );
